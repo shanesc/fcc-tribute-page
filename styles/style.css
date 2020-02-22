@@ -1,3 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: teal;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', 'sans-serif';
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 3rem;
+  color: hsl(225, 45%, 30%);
+  background-color: hsl(0, 0%, 85%);
+}
+
+main {
+  text-align: center;
+}
+
+#img-div {
+  margin-top: 6rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+}
+
+#image {
+  max-width: 100%;
+  max-height: 35rem;
+
+}
+
+#img-caption {
+  font-size: 1.1rem;
+}
+
+ul {
+  font-size: 1.2rem;
+  text-align: left;
+  /* padding: 2rem; */
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: 25rem;
+  /* list-style: circle; */
+}
+
+li {
+  margin-top: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
 }
